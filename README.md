@@ -1,12 +1,50 @@
-# React + Vite
+# PixelArt-Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+PixelArt-Studio is a web-based application that allows users to create and edit pixel art. It provides a user-friendly interface with various tools to draw, erase, fill, and manipulate pixels. Users can also save and load their creations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-   **Drawing:** Draw pixel by pixel with a pencil tool.
+-   **Erasing:** Erase pixels with an eraser tool.
+-   **Color Selection:** Choose from a wide range of colors.
+-   **Fill:** Fill areas with a selected color.
+-   **Grid:** Toggle a grid overlay for precise pixel placement.
+-   **Save:** Export your art as png image
+-   **Clear:** Clear the entire canvas.
+-   **Zoom:** Zoom in and out of the canvas grids.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+-   **Frontend:** React.js & TailwindCSS
+
+## Getting Started
+
+### Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/subhadip6869/PixelArt-Studio.git
+    ```
+
+2.  Navigate to the project directory:
+
+    ```bash
+    cd PixelArt-Studio
+    ```
+
+3.  Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4.  Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+5.  Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
